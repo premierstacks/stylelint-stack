@@ -1,0 +1,46 @@
+{
+  "name": "@tomchochola/stylelint-config",
+  "description": "stylelint config",
+  "keywords": [
+    "tomchochola",
+    "stylelint-config"
+  ],
+  "homepage": "https://github.com/tomchochola/stylelint-config",
+  "bugs": {
+    "email": "chocholatom1997@gmail.com",
+    "url": "https://github.com/tomchochola/stylelint-config/issues"
+  },
+  "license": "SEE LICENSE IN ./LICENSE.md",
+  "author": {
+    "email": "chocholatom1997@gmail.com",
+    "name": "Tomáš Chochola",
+    "url": "https://github.com/tomchochola"
+  },
+  "contributors": [
+    {
+      "email": "chocholatom1997@gmail.com",
+      "name": "Tomáš Chochola",
+      "url": "https://github.com/tomchochola"
+    }
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/tomchochola"
+  },
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomchochola/stylelint-config.git"
+  },
+  "dependencies": {
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-prettier": "^5.0.0"
+  },
+  "devDependencies": {
+    "@tomchochola/prettier-config": "github:tomchochola/prettier-config",
+    "@tomchochola/eslint-config": "github:tomchochola/eslint-config"
+  },
+  "private": true,
+  "type": "module"
+}
