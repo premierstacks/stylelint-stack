@@ -1,14 +1,14 @@
 {
-  "name": "@tomchochola/stylelint-config",
+  "name": "@premierstacks/stylelint-config",
   "description": "stylelint config",
   "keywords": [
-    "tomchochola",
+    "premierstacks",
     "stylelint-config"
   ],
-  "homepage": "https://github.com/tomchochola/stylelint-config",
+  "homepage": "https://github.com/premierstacks/stylelint-config",
   "bugs": {
     "email": "chocholatom1997@gmail.com",
-    "url": "https://github.com/tomchochola/stylelint-config/issues"
+    "url": "https://github.com/premierstacks/stylelint-config/issues"
   },
   "license": "SEE LICENSE IN ./LICENSE.md",
   "author": {
@@ -30,7 +30,7 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomchochola/stylelint-config.git"
+    "url": "https://github.com/premierstacks/stylelint-config.git"
   },
   "dependencies": {
     "stylelint": "^16.2.1",
@@ -38,8 +38,8 @@
     "stylelint-prettier": "^5.0.0"
   },
   "devDependencies": {
-    "@tomchochola/prettier-config": "github:tomchochola/prettier-config",
-    "@tomchochola/eslint-config": "github:tomchochola/eslint-config"
+    "@premierstacks/prettier-config": "github:premierstacks/prettier-config",
+    "@premierstacks/eslint-config": "github:premierstacks/eslint-config"
   },
   "private": true,
   "type": "module"

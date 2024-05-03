@@ -1,4 +1,4 @@
-# [Stylelint Config](https://github.com/tomchochola/stylelint-config) by [Tomáš Chochola](https://github.com/tomchochola)
+# [Stylelint Config](https://github.com/premierstacks/stylelint-config) by [Tomáš Chochola](https://github.com/tomchochola)
 
 Refine your CSS and SCSS with our Stylelint Config, offering a curated set for top-notch consistency and quality in web projects. Ideal for modern web development workflows.
 
@@ -78,7 +78,7 @@ Secure your license at [Tomáš Chochola's GitHub Sponsors page](https://github.
 ### 2️⃣ Package Installation
 
 ```shell
-npm install --save-dev github:tomchochola/stylelint-config
+npm install --save-dev github:premierstacks/stylelint-config
 ```
 
 ### 3️⃣ Configuration
@@ -86,7 +86,7 @@ npm install --save-dev github:tomchochola/stylelint-config
 Initialize your `stylelint.config.js`:
 
 ```js
-import { configs } from '@tomchochola/stylelint-config';
+import { configs } from '@premierstacks/stylelint-config';
 
 export default configs.recommended();
 ```
