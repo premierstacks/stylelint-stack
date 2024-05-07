@@ -33,9 +33,9 @@
     "url": "https://github.com/premierstacks/stylelint-config.git"
   },
   "dependencies": {
-    "stylelint": "^16.2.1",
-    "stylelint-config-standard-scss": "^13.0.0",
-    "stylelint-prettier": "^5.0.0"
+    "stylelint": "^16.5",
+    "stylelint-config-standard-scss": "^13.1",
+    "stylelint-prettier": "^5.0"
   },
   "devDependencies": {
     "@premierstacks/prettier-config": "github:premierstacks/prettier-config",
