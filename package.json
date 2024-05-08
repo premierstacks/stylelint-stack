@@ -3,7 +3,8 @@
   "description": "stylelint config",
   "keywords": [
     "premierstacks",
-    "stylelint-config"
+    "stylelint-config",
+    "tomchochola"
   ],
   "homepage": "https://github.com/premierstacks/stylelint-config",
   "bugs": {
