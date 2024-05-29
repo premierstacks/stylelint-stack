@@ -1,20 +1,20 @@
-# [Stylelint Config](https://github.com/premierstacks/stylelint-config) by [Tomáš Chochola](https://github.com/tomchochola)
+# [Stylelint Stack](https://github.com/premierstacks/stylelint-stack) by [Tomáš Chochola](https://github.com/tomchochola)
 
-Refine your CSS and SCSS with our Stylelint Config, offering a curated set for top-notch consistency and quality in web projects. Ideal for modern web development workflows.
+Refine your CSS and SCSS with our Stylelint Stack, offering a curated set for top-notch consistency and quality in web projects. Ideal for modern web development workflows.
 
-Our Stylelint Config provides a comprehensive suite of rules and configurations to ensure your stylesheets meet the highest standards of code quality. Designed for seamless integration, it empowers you to maintain consistency and excellence in your styling, aligning with professional web design practices. This package is the product of extensive research, offering a streamlined setup for immediate improvement in your CSS and SCSS files. Continuously updated to keep pace with web styling advancements, our config guarantees reliability and premier quality in your web design efforts, making it an essential tool for developers committed to crafting polished digital projects.
+Our Stylelint Stack provides a comprehensive suite of rules and configurations to ensure your stylesheets meet the highest standards of code quality. Designed for seamless integration, it empowers you to maintain consistency and excellence in your styling, aligning with professional web design practices. This package is the product of extensive research, offering a streamlined setup for immediate improvement in your CSS and SCSS files. Continuously updated to keep pace with web styling advancements, our config guarantees reliability and premier quality in your web design efforts, making it an essential tool for developers committed to crafting polished digital projects.
 
-## 👌 Top Reasons to Opt for Our Premium Stylelint Config
+## 👌 Top Reasons to Opt for Our Premium Stylelint Stack
 
-By integrating our Premium Stylelint Config into your development process, you not only ensure consistency and quality in your styling but also set a new standard for excellence in web design, reflecting a professional and polished approach to your digital projects.
+By integrating our Premium Stylelint Stack into your development process, you not only ensure consistency and quality in your styling but also set a new standard for excellence in web design, reflecting a professional and polished approach to your digital projects.
 
 ### ⏱️ Setup in Just 5 Minutes
 
-Improve your CSS and SCSS instantly with our Stylelint Config, designed for effortless integration into any web development project. This setup enables you to adopt high-quality style guidelines quickly, streamlining your workflow from the outset.
+Improve your CSS and SCSS instantly with our Stylelint Stack, designed for effortless integration into any web development project. This setup enables you to adopt high-quality style guidelines quickly, streamlining your workflow from the outset.
 
 ### 🕒 Hundreds of Hours of Research, So You Don't Have To
 
-Our Stylelint Config is the culmination of extensive research into best practices for CSS and SCSS styling. By choosing our configuration, you tap into a rich vein of industry knowledge, ensuring your stylesheets are both modern and maintainable without the heavy lifting.
+Our Stylelint Stack is the culmination of extensive research into best practices for CSS and SCSS styling. By choosing our configuration, you tap into a rich vein of industry knowledge, ensuring your stylesheets are both modern and maintainable without the heavy lifting.
 
 ### 🎚️ Minimal Setup, Maximum Style Consistency
 
@@ -22,7 +22,7 @@ Achieve unparalleled consistency and quality in your stylesheets with minimal se
 
 ### 📘 Zero Expertise Required
 
-Whether you're a seasoned stylist or new to CSS and SCSS, our Stylelint Config is built for simplicity and ease of use. This ensures that developers of all skill levels can achieve professional-grade styling standards effortlessly.
+Whether you're a seasoned stylist or new to CSS and SCSS, our Stylelint Stack is built for simplicity and ease of use. This ensures that developers of all skill levels can achieve professional-grade styling standards effortlessly.
 
 ### 🔄 Continuously Updated
 
@@ -30,11 +30,11 @@ Stay at the forefront of web styling with a configuration that's regularly updat
 
 ### ⚔️ Battle-Tested Reliability
 
-Rely on a Stylelint Config that has been rigorously tested across a wide range of web projects. From small personal websites to large-scale web applications, our configuration delivers reliable and consistent styling results, enhancing the overall quality of your web presence.
+Rely on a Stylelint Stack that has been rigorously tested across a wide range of web projects. From small personal websites to large-scale web applications, our configuration delivers reliable and consistent styling results, enhancing the overall quality of your web presence.
 
 ### 🏆 Premier Quality Guarantee
 
-Opting for our Stylelint Config is a testament to your commitment to excellence in web design. This tool is more than just a set of styling rules; it's a comprehensive solution that elevates the aesthetics and functionality of your web projects.
+Opting for our Stylelint Stack is a testament to your commitment to excellence in web design. This tool is more than just a set of styling rules; it's a comprehensive solution that elevates the aesthetics and functionality of your web projects.
 
 ## 🛡️ License & Usage
 
@@ -78,7 +78,7 @@ Secure your license at [Tomáš Chochola's GitHub Sponsors page](https://github.
 ### 2️⃣ Package Installation
 
 ```shell
-npm install --save-dev github:premierstacks/stylelint-config
+npm install --save-dev github:premierstacks/stylelint-stack
 ```
 
 ### 3️⃣ Configuration
@@ -86,7 +86,7 @@ npm install --save-dev github:premierstacks/stylelint-config
 Initialize your `stylelint.config.js`:
 
 ```js
-import { configs } from '@premierstacks/stylelint-config';
+import { configs } from '@premierstacks/stylelint-stack';
 
 export default configs.recommended();
 ```
