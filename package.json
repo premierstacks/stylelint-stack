@@ -34,7 +34,7 @@
     "url": "https://github.com/premierstacks/stylelint-stack.git"
   },
   "dependencies": {
-    "stylelint": "^16.5",
+    "stylelint": "^16.9",
     "stylelint-config-standard-scss": "^13.1",
     "stylelint-prettier": "^5.0"
   },

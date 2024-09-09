@@ -17,9 +17,11 @@
  * - Web: https://premierstacks.com
  */
 
-export function recommended() {
+function recommended() {
   return {
     extends: ['stylelint-config-standard-scss', 'stylelint-prettier/recommended'],
     rules: { 'prettier/prettier': null },
   };
 }
+
+export { recommended };
