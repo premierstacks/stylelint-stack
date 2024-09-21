@@ -1,6 +1,6 @@
 {
   "name": "@premierstacks/stylelint-stack",
-  "description": "stylelint stack",
+  "description": "premierstacks stylelint stack",
   "keywords": [
     "premierstacks",
     "stylelint-stack",
@@ -29,6 +29,8 @@
     "url": "https://github.com/sponsors/tomchochola"
   },
   "main": "./src/index.js",
+  "module": "./src/index.js",
+  "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/premierstacks/stylelint-stack.git"
@@ -39,8 +41,8 @@
     "stylelint-prettier": "^5.0"
   },
   "devDependencies": {
-    "@premierstacks/prettier-stack": "github:premierstacks/prettier-stack",
-    "@premierstacks/eslint-stack": "github:premierstacks/eslint-stack"
+    "@premierstacks/eslint-stack": "github:premierstacks/eslint-stack",
+    "@premierstacks/prettier-stack": "github:premierstacks/prettier-stack"
   },
   "private": true,
   "type": "module"

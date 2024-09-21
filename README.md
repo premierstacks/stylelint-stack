@@ -1,40 +1,42 @@
 # [Stylelint Stack](https://github.com/premierstacks/stylelint-stack) by [Tomáš Chochola](https://github.com/tomchochola)
 
-Refine your CSS and SCSS with our Stylelint Stack, offering a curated set for top-notch consistency and quality in web projects. Ideal for modern web development workflows.
+A premium, preconfigured Stylelint stack that ensures your CSS and SCSS maintain consistent quality and styling standards across projects. Ideal for developers seeking precision, readability, and consistency in their stylesheets.
 
-Our Stylelint Stack provides a comprehensive suite of rules and configurations to ensure your stylesheets meet the highest standards of code quality. Designed for seamless integration, it empowers you to maintain consistency and excellence in your styling, aligning with professional web design practices. This package is the product of extensive research, offering a streamlined setup for immediate improvement in your CSS and SCSS files. Continuously updated to keep pace with web styling advancements, our config guarantees reliability and premier quality in your web design efforts, making it an essential tool for developers committed to crafting polished digital projects.
+## 💡 Idea Behind Premierstacks
 
-## 👌 Top Reasons to Opt for Our Premium Stylelint Stack
+Premierstacks is a comprehensive solution designed to cover both the development environment and the runtime provisioning/release process to production servers.
 
-By integrating our Premium Stylelint Stack into your development process, you not only ensure consistency and quality in your styling but also set a new standard for excellence in web design, reflecting a professional and polished approach to your digital projects.
+It includes everything from basic project structures to configurations for unit tests, static analysis, linters, automatic code fixers, and compilation or transpilation. Premierstacks ensures that your entire workflow, from development to production deployment, operates smoothly.
 
-### ⏱️ Setup in Just 5 Minutes
+With a single license, you gain access to multiple libraries and guides that allow you to focus on business logic while Premierstacks handles both development and runtime environments.
 
-Improve your CSS and SCSS instantly with our Stylelint Stack, designed for effortless integration into any web development project. This setup enables you to adopt high-quality style guidelines quickly, streamlining your workflow from the outset.
+This software is proprietary and designed for serious developers who value precision and professionalism. Ensure compliance by securing your license today.
 
-### 🕒 Hundreds of Hours of Research, So You Don't Have To
+## ⚡ Why Choose This Solution?
 
-Our Stylelint Stack is the culmination of extensive research into best practices for CSS and SCSS styling. By choosing our configuration, you tap into a rich vein of industry knowledge, ensuring your stylesheets are both modern and maintainable without the heavy lifting.
+- **Premier Quality**
 
-### 🎚️ Minimal Setup, Maximum Style Consistency
+  Crafted for developers who demand high-quality styling consistency.
 
-Achieve unparalleled consistency and quality in your stylesheets with minimal setup effort. Our flat configuration system makes it simple to integrate our rules into your project, allowing you to focus on creating beautiful, responsive designs.
+- **Expertly Crafted**
 
-### 📘 Zero Expertise Required
+  Built with extensive research into CSS and SCSS best practices.
 
-Whether you're a seasoned stylist or new to CSS and SCSS, our Stylelint Stack is built for simplicity and ease of use. This ensures that developers of all skill levels can achieve professional-grade styling standards effortlessly.
+- **Production-Ready**
 
-### 🔄 Continuously Updated
+  Tested in real-world projects to ensure reliable and consistent results.
 
-Stay at the forefront of web styling with a configuration that's regularly updated to reflect the latest trends and improvements in the CSS and SCSS ecosystem. Our commitment to staying current ensures your projects are always styled using the best and most efficient practices.
+- **Efficient Setup**
 
-### ⚔️ Battle-Tested Reliability
+  Seamless integration into any project, saving time while maintaining quality.
 
-Rely on a Stylelint Stack that has been rigorously tested across a wide range of web projects. From small personal websites to large-scale web applications, our configuration delivers reliable and consistent styling results, enhancing the overall quality of your web presence.
+- **Regular Updates**
 
-### 🏆 Premier Quality Guarantee
+  Stay aligned with the latest Stylelint features and best practices.
 
-Opting for our Stylelint Stack is a testament to your commitment to excellence in web design. This tool is more than just a set of styling rules; it's a comprehensive solution that elevates the aesthetics and functionality of your web projects.
+- **Versatile**
+
+  Supports both CSS and SCSS with Prettier integration, ensuring code formatting is consistent.
 
 ## 🛡️ License & Usage
 
@@ -42,97 +44,122 @@ Opting for our Stylelint Stack is a testament to your commitment to excellence i
 
 [![License](https://img.shields.io/badge/License-©_Proprietary-blue.svg)](LICENSE.md)
 
-This software is the exclusive property of Tomáš Chochola, protected by copyright laws.<br />
-Although the source code may be accessible, it is not free for use without a valid license.<br />
-A valid license, obtainable through proper channels, is required for any software use.<br />
-For licensing or inquiries, please contact Tomáš Chochola or refer to the GitHub Sponsors page.
+This software is proprietary property of Tomáš Chochola and protected by copyright laws.<br />
+A valid license is required for any use or manipulation of the software or source code.<br />
+The full license terms are detailed in the LICENSE.md file within the source code repository.
 
-The full license terms are detailed in the LICENSE.md file within the source code repository.<br />
-The terms are subject to changes. Users are encouraged to review them periodically.
+One license grants you access to all Premierstacks products, ensuring a unified solution for your development and production needs.
 
-**Email:** <chocholatom1997@gmail.com><br />
-**Personal GitHub:** [https://github.com/tomchochola](https://github.com/tomchochola)<br />
-**Premierstacks GitHub:** [https://github.com/premierstacks](https://github.com/premierstacks)<br />
-**Sponsor & License:** [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)<br />
-**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)
+**Purchase a license here**: [GitHub Sponsors](https://github.com/sponsors/tomchochola)
 
-### Acquiring a License
+**See full terms in**: [LICENSE.md](LICENSE.md)
 
-To use this software, you must obtain a valid license available through a monthly subscription on the [Sponsor & License](https://github.com/sponsors/tomchochola).<br />
-This platform has been chosen for its reliability and ease of use, providing a secure and straightforward way to manage your subscription.
+# 📦 Module exports
 
-## 🖍️ Highlights
+Here are the available module exports and their use cases:
 
-- **Advanced Configuration**: Integrates stylelint-config-standard-scss for SCSS and stylelint-prettier for code formatting, combining best practices and style consistency.
-- **Streamlined Setup**: Offers a flat configuration system, making it effortless to integrate and manage within your projects.
-- **Versatility**: Suitable for a wide array of web projects, from simple static sites to complex web applications using modern frameworks.
-- **Code Quality Focus**: Emphasizes code quality and maintainability, with rules that enforce consistency and prevent common errors.
-- **Ease of Use**: Simplifies the adoption of Stylelint, allowing developers to focus on crafting beautiful styles rather than configuring tools.
+```js
+import * as m from '@premierstacks/stylelint-stack';
 
-## 🎨 Available Configuration Presets
+// basic recommended configuration for every project including CSS and SCSS
+recommended(): object;
+```
 
-Choose from a variety of preconfigured presets:
+## 🧩 Templates
 
-- **recommended**: Combines the rigor of stylelint-config-standard-scss with the ease of stylelint-prettier, offering a balanced setup that caters to a broad spectrum of styling needs while ensuring code quality and stylistic consistency.
+Explore the predefined templates for various configurations in the `/templates` directory. These templates provide quick-start setups for different environments.
 
-## 🎬 Get Started
+- **[/templates/recommended.config.js](/templates/recommended.config.js)**
 
-### 1️⃣ License Acquisition
+  A basic recommended configuration for every project, including CSS and SCSS.
 
-Secure your license at [Sponsor & License](https://github.com/sponsors/tomchochola).
+## 🚀 Getting Started
 
-### 2️⃣ Package Installation
+1️⃣ **Review the documentation and license**
 
-```shell
+Ensure this package fits your needs and that you agree with the terms.
+
+2️⃣ **Purchase a license**
+
+Obtain a valid license through [GitHub Sponsors](https://github.com/sponsors/tomchochola).
+
+3️⃣ **Install the package**
+
+Install using npm:
+
+```bash
 npm install --save-dev github:premierstacks/stylelint-stack
 ```
 
-### 3️⃣ Configuration
+4️⃣ **Select a template**
 
-Initialize your `stylelint.config.js`:
+Choose one of the predefined configuration templates from the `/templates` directory that best suits your project’s needs. Use the `cp` command to copy it into your project as `stylelint.config.js`:
 
-```js
-import { configs } from '@premierstacks/stylelint-stack';
-
-export default configs.recommended();
+```bash
+cp ./node_modules/@premierstacks/stylelint-stack/templates/recommended.config.js ./stylelint.config.js
 ```
 
-### 4️⃣ Attribution
+5️⃣ **CLI**
 
-Please ensure to manually give credits to the authors in your project documentation or wherever appropriate, as per the license agreement.
+Execute commands:
 
-### 5️⃣ Usage
-
-```shell
-# To fix issues
+```bash
+# To fix style issues in CSS and SCSS files
 ./node_modules/.bin/stylelint --fix ./**/*.{scss,css}
 
-# To check for issues
+# To check for style issues
 ./node_modules/.bin/stylelint ./**/*.{scss,css}
 ```
 
-## The Author: Tomáš Chochola
+## 👤 The Author: Tomáš Chochola
 
-_Elite developer crafting exclusive, enterprise-grade software, professional packages, and premium templates to elevate your digital landscape._
+Tomáš Chochola is a leading software developer known for delivering precision-crafted, enterprise-grade solutions. With deep expertise in multiple cutting-edge technologies, Tomáš focuses on ensuring top-tier code quality and efficiency for every project.
 
-Tomáš Chochola is the creator and project visionary behind this project.<br />
-His expertise and innovative approach have been instrumental in shaping the project's direction and ensuring its success.<br />
-Tomáš Chochola's commitment to excellence and his passion for development are reflected in the quality and reliability of the project.
-
-**E-mail**: <chocholatom1997@gmail.com><br />
+**Email**: <chocholatom1997@gmail.com><br />
+**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)<br />
 **Personal GitHub**: [https://github.com/tomchochola](https://github.com/tomchochola)<br />
 **Premierstacks GitHub**: [https://github.com/premierstacks](https://github.com/premierstacks)<br />
-**Sponsor & License**: [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)<br />
-**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)
+**GitHub Sponsors**: [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)
 
-## 🌐 Discover Tomáš Chochola's GitHub Universe
+His areas of specialization include:
 
-Explore the boundless creativity and innovation in [Personal GitHub](https://github.com/tomchochola). As the epicenter of my digital creations, it offers an extensive collection of avant-garde software packages, refined libraries, and polished templates, meticulously crafted to enhance your development journey. Immerse yourself in a world where efficiency and elegance converge, and elevate your projects with tools that redefine excellence.
+- DevOps and AWS
+- PHP and Laravel
+- Secure coding practices
+- Code style and best practices
+- Helper functions and libraries
+- TypeScript, React, and Webpack
+- Reusable templates and configuration stacks
+- Development on Windows 11 and Ubuntu 22/24 (WSL2)
+- ESLint, Prettier, PHP CS Fixer, PostCSS, and Stylelint
 
-## 💰 Empower Innovation: Support and Subscribe
+## 💼 Hire Me
 
-Your support transcends mere contributions; it's the lifeblood of innovation and growth. By subscribing for premium access or becoming a sponsor, you directly contribute to the advancement of high-caliber software. Embrace the opportunity to be part of a visionary journey by visiting my [Sponsor & License](https://github.com/sponsors/tomchochola).
+Whether you need short-term code assistance, in-depth analysis, or help integrating premium packages, I'm available for collaboration. Let's take your project to the next level.
 
-## 🤝 Join Forces with Tomáš Chochola
+You can also support my work by becoming a sponsor through [GitHub Sponsors](https://github.com/sponsors/tomchochola).
 
-Embark on a collaborative venture with a developer whose passion for perfection knows no bounds. Whether it's for groundbreaking startups, global enterprises, or transformative government projects, my arsenal of skills is at your command. Let's merge visions and craftsmanship to forge software that stands a class apart. Connect with me at <chocholatom1997@gmail.com> for collaborations that transcend conventional boundaries.
+If you're interested in hiring me for any of the above or for solving IT issues, feel free to reach out. I'm open to collaboration, whether it's for new packages, ongoing projects, or quick IT fixes.
+
+## 🌳 Project Structure (Tree)
+
+Below is an example of the project structure you will receive upon purchasing the Stylelint Stack. This allows you to see what’s included and know exactly what you are paying for:
+
+```sh
+.
+├── AUTHORS.md
+├── LICENSE.md
+├── Makefile
+├── README.md
+├── eslint.config.js
+├── package.json
+├── prettier.config.js
+├── src
+│   ├── configs
+│   │   └── recommended.js
+│   └── index.js
+└── templates
+    └── recommended.config.js
+
+3 directories, 10 files
+```
