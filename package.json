@@ -2,9 +2,9 @@
   "name": "@premierstacks/stylelint-stack",
   "description": "premierstacks stylelint stack",
   "keywords": [
+    "tomchochola",
     "premierstacks",
-    "stylelint-stack",
-    "tomchochola"
+    "stylelint-stack"
   ],
   "homepage": "https://github.com/premierstacks/stylelint-stack",
   "bugs": {
@@ -29,7 +29,6 @@
     "url": "https://github.com/sponsors/tomchochola"
   },
   "main": "./src/index.js",
-  "module": "./src/index.js",
   "sideEffects": false,
   "repository": {
     "type": "git",
