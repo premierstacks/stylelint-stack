@@ -3,6 +3,7 @@
   "description": "premierstacks stylelint stack",
   "keywords": [
     "tomchochola",
+    "tomaschochola",
     "premierstacks",
     "stylelint-stack"
   ],
@@ -11,7 +12,7 @@
     "email": "chocholatom1997@gmail.com",
     "url": "https://github.com/premierstacks/stylelint-stack/issues"
   },
-  "license": "SEE LICENSE IN ./LICENSE.md",
+  "license": "CC-BY-ND-4.0",
   "author": {
     "email": "chocholatom1997@gmail.com",
     "name": "Tomáš Chochola",
@@ -28,12 +29,7 @@
     "type": "github",
     "url": "https://github.com/sponsors/tomchochola"
   },
-  "main": "./src/index.js",
-  "sideEffects": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/premierstacks/stylelint-stack.git"
-  },
+  "repository": "github:premierstacks/stylelint-stack",
   "dependencies": {
     "stylelint": "^16.12",
     "stylelint-config-standard-scss": "^14.0",
@@ -44,5 +40,7 @@
     "@premierstacks/prettier-stack": "github:premierstacks/prettier-stack"
   },
   "private": true,
-  "type": "module"
+  "type": "module",
+  "sideEffects": false,
+  "main": "./src/index.js"
 }
