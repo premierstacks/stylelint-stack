@@ -11,7 +11,7 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-export function recommended() {
+export function createStylelintConfigBase() {
   return {
     extends: ['stylelint-config-standard-scss', 'stylelint-prettier/recommended'],
     rules: { 'prettier/prettier': null },
