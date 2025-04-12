@@ -31,9 +31,9 @@
   },
   "repository": "github:premierstacks/stylelint-stack",
   "dependencies": {
-    "stylelint": "^16.18",
-    "stylelint-config-standard-scss": "^14.0",
-    "stylelint-prettier": "^5.0"
+    "stylelint": "^16.18.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-prettier": "^5.0.3"
   },
   "devDependencies": {
     "@premierstacks/eslint-stack": "github:premierstacks/eslint-stack#semver:^2.0",
