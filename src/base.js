@@ -11,9 +11,41 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-export function createStylelintConfigBase() {
+export function createStylelintConfig() {
   return {
-    extends: ['stylelint-config-standard-scss', 'stylelint-prettier/recommended'],
-    rules: { 'prettier/prettier': null },
+    extends: [],
+    rules: {},
+  };
+}
+
+export function withPluginStandard(config, options = {}, override = {}) {
+  // eslint-disable-next-line no-empty-pattern
+  const {} = options;
+
+  return {
+    ...config,
+    extends: [
+      ...config.extends,
+      'stylelint-config-standard-scss',
+    ],
+    ...override,
+  };
+}
+
+export function withPluginPrettier(config, options = {}, override = {}) {
+  // eslint-disable-next-line no-empty-pattern
+  const {} = options;
+
+  return {
+    ...config,
+    extends: [
+      ...config.extends,
+      'stylelint-prettier/recommended',
+    ],
+    rules: {
+      ...config.rules,
+      'prettier/prettier': null,
+    },
+    ...override,
   };
 }

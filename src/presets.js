@@ -11,6 +11,26 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-export * from './base.js';
-export * from './builder.js';
-export * as StylelintStackPresets from './presets.js';
+import { StylelintStack } from './builder.js';
+
+export function base(options = {}) {
+  const {
+    environment = process.env.NODE_ENV ?? 'production',
+    standard = true,
+    prettier = true,
+  } = options;
+
+  let config = StylelintStack.create({
+    environment,
+  });
+
+  if (standard) {
+    config = config.standard();
+  }
+
+  if (prettier) {
+    config = config.prettier();
+  }
+
+  return config;
+}

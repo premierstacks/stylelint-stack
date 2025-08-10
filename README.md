@@ -69,7 +69,7 @@ By protecting the core quality and unity of Premierstacks, this license ensures 
 Here are the available module exports:
 
 ```js
-import { createPostcssConfigBase } from '@premierstacks/stylelint-stack';
+import { StylelintStack } from '@premierstacks/stylelint-stack';
 ```
 
 ## Templates
