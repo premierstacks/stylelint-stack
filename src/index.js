@@ -11,6 +11,4 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-export * from './base.js';
-export * from './builder.js';
-export * as StylelintStackPresets from './presets.js';
+export * from './StylelintStack.js';
